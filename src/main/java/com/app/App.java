@@ -11,13 +11,17 @@ public class App {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		HumanWizard ourHumanWizard = new HumanWizard();
+		
+		ourHumanWizard = ourHumanWizard.makeHumanWizard();
+		
+		System.out.println(ourHumanWizard.getWeapon());
+		System.out.println(ourHumanWizard.getHealth());
+		System.out.println(ourHumanWizard.getMagic());
+		
 		boolean userInputCorrect = false;
 		
-		ElfJedi ourElfJedi = makeElfJedi();
-		
-		System.out.println(ourElfJedi.getHealth());
-
-		 do {
+		do {
 			System.out.println("Welcome to Silly D'n'D\n" 
 					+ "Would you like to play as a\n" 
 					+ "1. Human Wizard\n"

@@ -17,6 +17,10 @@ public class Elf extends CharacterClass {
 		// TODO Auto-generated constructor stub
 	}
 
+	public Elf() {
+		// TODO Auto-generated constructor stub
+	}
+
 	@Override
 	public void setHealth(int health) {
 		// TODO Auto-generated method stub
